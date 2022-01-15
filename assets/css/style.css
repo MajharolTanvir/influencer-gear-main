@@ -6,6 +6,14 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
+.section_title {
+    font-size: 28px;
+    font-weight: 600;
+    color: #3a3a3a;
+    display: flex;
+    justify-content: center;
+}
+
 /* ----------------
 common css---------
 ---------------- */
@@ -46,6 +54,7 @@ banner part-------
 
 .banners {
     display: flex;
+    padding-bottom: 50px;
 }
 .banner_text {
     align-items: flex-start;
@@ -72,5 +81,85 @@ banner part-------
     background: url(../images/Circle\ design.svg);
     background-repeat: no-repeat;
     background-position: center;
+}
+
+/*----------------
+Popular collection
+--------------- */
+.popular {
+    margin-top: 50px;
+}
+.collections {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 30px;
+    margin: 50px 0;
+}
+.collection {
+    padding: 15px;
+    box-shadow: 0 0 15px 10px #78788552;
+}
+.collection h3 {
+    font-size: 28px;
+    font-weight: 500;
+    padding-top: 15px;
+}
+.collection h4 {
+    font-size: 28px;
+    font-weight: 400;
+    padding: 5px 0;
+}
+.collection p {
+    font-size: 14px;
+    font-weight: 400;
+    color: #787885;
+    padding-right: 50%;
+}
+
+.rating {
+    display: flex;
+    /* justify-content: flex-start; */
+    align-items: center;
+}
+.star {
+    color: orange;
+    padding-right: 20px;
+}
+.popular h4 {
+    color: #E02C6D;
+    text-align: right;
+    margin-bottom: 30px;
+}
+.popular h4 i {
+    padding-left: 10px;
+}
+
+/* -----------------
+footer--------------
+----------------- */
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 40px 0;
+    text-align: center;
+    background-color: rgb(3, 4, 39);
+}
+.last_section {
+    color: #fff;
+}
+.footer_text h3 {
+    font-size: 28px;
+    font-weight: 700;
+}
+.footer_icon  {
+    margin-top: 30px;
+}
+.footer_icon a {
+    color: #fff;
+    background: rgb(75, 73, 73);
+    font-size: 20px;
+    padding: 10px 15px;
+    border-radius: 48%;
 
 }
