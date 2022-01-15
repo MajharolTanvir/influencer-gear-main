@@ -18,7 +18,7 @@
 common css---------
 ---------------- */
 .container {
-    width: 1000px;
+    width: 80%;
     margin: 0 auto;
 }
 /*------------------
@@ -53,11 +53,12 @@ banner part-------
 --------------- */
 
 .banners {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     padding-bottom: 50px;
 }
 .banner_text {
-    align-items: flex-start;
+    align-items: right;
     padding: 50px 60px 0 0;
 }
 .banner_text h2 {
@@ -94,6 +95,11 @@ banner part-------
     background-repeat: no-repeat;
     background-position: center;
 }
+.banner_image img{
+    height: 100%;
+    width: 100%;
+    
+}
 
 /*----------------
 Popular collection
@@ -105,11 +111,14 @@ Popular collection
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 30px;
-    margin: 50px 0;
+    margin: 50px auto;
 }
 .collection {
     padding: 15px;
     box-shadow: 0 0 15px 10px #78788552;
+}
+.collection img {
+    width: 100%;
 }
 .collection h3 {
     font-size: 28px;
