@@ -31,6 +31,13 @@ header part --------
     padding: 30px 0 80px;
     align-items: center;
 }
+#nav_toggler {
+    display: none;
+}
+.nav_toggler_icon {
+    display: none;
+    font-size: 25px;
+}
 .logo h2 {
     font-size: 24px;
     font-weight: 700;
