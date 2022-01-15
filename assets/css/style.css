@@ -69,7 +69,7 @@ banner part-------
     font-weight: 400;
     padding: 20px 0;
 }
-.banner_text a {
+.banner_text button {
     font-size: 16px;
     font-weight: 700;
     padding: 5px  20px;
@@ -80,6 +80,14 @@ banner part-------
     background: #E02C6D;
     border: 3px solid #E02C6D;
     color: #fff;
+    cursor: pointer;
+    box-shadow: 0 3px 0 #a5325c;
+    position: relative;
+    top: 0;
+}
+.banner_text button:active {
+    top: 5px;
+    box-shadow: 0 2px 0 #a5325c;
 }
 .banner_image {
     background: url(../images/Circle\ design.svg);
@@ -145,6 +153,7 @@ contect bar---------
     background-repeat: no-repeat;
     background-position: cover;
     padding: 15px 0;
+    object-fit: cover;
 }
 .contacts {
     display: grid;
@@ -169,10 +178,19 @@ form {
     font-size: 18px;
 }
 .submit {
+    outline: 0;
     padding: 10px 30px;
     background: #E02C6D;
     color: #fff;
     border-radius: 40px;
+    cursor: pointer;
+    box-shadow: 0 3px 0 #a5325c;
+    position: relative;
+    top: 0;
+}
+.submit:active {
+    top: 5px;
+    box-shadow: 0 2px 0 #a5325c;
 }
 /* -----------------
 footer--------------
